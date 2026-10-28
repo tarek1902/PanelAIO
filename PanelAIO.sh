@@ -13,8 +13,8 @@ NC='\033[0m' # No Color
 # Show title
 echo -e "${CYAN}"
 echo "##################################################"
-echo "#    GlobalTranslateUltra Installation Script    #"
-echo "#                   Version 7.1                  #"
+echo "#    PanelAIO Installation Script    #"
+echo "#                   Version 00                  #"
 echo "##################################################"
 echo -e "${NC}"
 sleep 2s
@@ -45,7 +45,7 @@ echo -e "${GREEN}✓ Temporary files cleaned${NC}"
 # Settings
 plugin=GlobalTranslateUltra
 version=7.1
-url=https://raw.githubusercontent.com/tarek1902/GlobalTranslate_Ultra/refs/heads/main/GlobalTranslate_Ultra-7.1.tar.gz
+url=https://raw.githubusercontent.com/tarek1902/PanelAIO/refs/heads/main/PanelAIO.tar.gz
 package=/var/volatile/tmp/$plugin-$version.tar.gz
 
 # Download and install
@@ -81,8 +81,8 @@ if [ $extract -eq 0 ]; then
     echo "#              INSTALLED SUCCESSFULLY                #"
     echo "#              ON - MagicPanelGold v11.0             #"
     echo "#           Enigma2 restart is required              #"
-    echo "#        .::UPLOADED BY  >>>>   HAMDY_AHMED::.       #"
-    echo "#     https://www.facebook.com/share/g/18qCRuHz26/   #"
+    echo "#        .::UPLOADED BY  >>>>   TAREK-HANFY::.       #"
+    echo "#     https://www.facebook.com/share/O#"
     echo "######################################################"
     echo -e "${YELLOW}"
     echo "########################################"
