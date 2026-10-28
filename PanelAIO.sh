@@ -43,8 +43,8 @@ rm -rf /tmp/*.tar.gz >/dev/null 2>&1
 echo -e "${GREEN}✓ Temporary files cleaned${NC}"
 
 # Settings
-plugin=GlobalTranslateUltra
-version=7.1
+plugin=PanelAIO
+version=00
 url=https://raw.githubusercontent.com/tarek1902/PanelAIO/refs/heads/main/PanelAIO.tar.gz
 package=/var/volatile/tmp/$plugin-$version.tar.gz
 
@@ -79,10 +79,8 @@ if [ $extract -eq 0 ]; then
     echo -e "${GREEN}"
     echo "######################################################"
     echo "#              INSTALLED SUCCESSFULLY                #"
-    echo "#              ON - MagicPanelGold v11.0             #"
     echo "#           Enigma2 restart is required              #"
     echo "#        .::UPLOADED BY  >>>>   TAREK-HANFY::.       #"
-    echo "#     https://www.facebook.com/share/O#"
     echo "######################################################"
     echo -e "${YELLOW}"
     echo "########################################"
@@ -92,10 +90,10 @@ if [ $extract -eq 0 ]; then
     sleep 3s
     
     # إضافة ريستارت بعد 3 ثواني
-    echo -e "${RED}> Restarting device in 3 seconds...${NC}"
-    echo -e "${YELLOW}> Press Ctrl+C to cancel restart${NC}"
+    echo -e "${RED}> killall -9 enigma2 in 3 seconds...${NC}"
+    echo -e "${YELLOW}> Press Ctrl+C to cancel killall -9 enigma2${NC}"
     sleep 3s
-    echo -e "${RED}> Restarting device now...${NC}"
+    echo -e "${RED}> killall -9 enigma2 now...${NC}"
     sleep 1s
     reboot
     
