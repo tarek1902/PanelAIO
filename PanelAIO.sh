@@ -43,8 +43,8 @@ rm -rf /tmp/*.tar.gz >/dev/null 2>&1
 echo -e "${GREEN}✓ Temporary files cleaned${NC}"
 
 # Settings
-plugin=GlobalTranslateUltra
-version=7.1
+plugin=PanelAIO
+version=00
 url=https://raw.githubusercontent.com/tarek1902/PanelAIO/refs/heads/main/PanelAIO.tar.gz
 package=/var/volatile/tmp/$plugin-$version.tar.gz
 
